@@ -9,18 +9,20 @@ console.log(mascota);
 //TIPO DE DATOS
 
 //tipo de datos objetos
+let variable="js de variable";
 
 const persona={
     nombre:"gustavo",
     apellido:"acevedo",
     edad:31
 }
-console.log(persona)
+console.log(variable, persona)
 
 //array o lista
 const frutas=['pera','limon']
 console.log(frutas)
 
-console.log(typeof mascota)  //con typeof nos indica el tipo de datos
+console.log(typeof persona, typeof mascota)  //con typeof nos indica el tipo de datos
+
 
 
