@@ -1,20 +1,26 @@
-const datos=["gasfiteria","rio calle 258"];
+const datos=["ferreteria","londres 258",2]
 console.log(datos)
 
 
-const EMP=[
+const empresa=[
     {
-        // id=0,
-        nombre="constructora",
-        direccion="maule 123",
+        id:0,
+        nombre:"constructora",
+        direccion:"maule 123"
     },
     {
-        // id=1,
-        nombre="panadereria",
-        direccion="arturo 123",
+        id:1,
+        nombre:"panadereria",
+        direccion:"arturo 123"
     }
 
 ]
+console.log(empresa)
 
 
-// console.log(EMP)
+const frutas=[
+    'platano','manzana','melon','frutilla'
+]
+const mueble=[
+    'mesa','silla','puerta'
+]
