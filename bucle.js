@@ -30,5 +30,11 @@ for(const f of frutas){
 }
 
 const antecedentes={
-    
+    nombre:"gustavo",
+    apellido:"acevedo",
+    edad:32
+}
+
+for(const persona in antecedentes){
+    console.log(antecedentes[persona])
 }
