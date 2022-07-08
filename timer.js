@@ -10,15 +10,15 @@
 
 
 // **********************************************
-// TIMER Q EFECTURA VARIAS VECES
+// TIMER Q EFECTURA VARIAS VECES (se ve en consola)
 
-// let contador=0;
+let contador=0;
 
-// let newcontador=setInterval(()=>{
+let newcontador=setInterval(()=>{
 
-//     contador>10 ? clearInterval(newcontador): console.log(contador++)
+    contador>10 ? clearInterval(newcontador): console.log(contador++)
 
-// },1000)
+},1000)
 
 // **********************************************
 
