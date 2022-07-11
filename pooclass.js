@@ -6,7 +6,7 @@ class automovil{
         this.tipo=tipo
     }
 
-    // GET/SET
+    // GET/SET  SIEMPRE DEBEN IR JUNTOS
     // coger
     get getcolor(){
         return this.color
@@ -34,6 +34,7 @@ class automovil{
 }
 
 // INSTANCIA
+
 
 const coche=new automovil('fiat','strada','plateado','camioneta')
 console.log(coche)
